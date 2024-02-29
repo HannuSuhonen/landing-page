@@ -6,12 +6,12 @@ body{
     height: 100vh;
     background-image: linear-gradient(to bottom,
     #1f2937 0%,
-    #1f2937 35%,
-    white 35%,
-    white 50%,
-    #e5e7eb 50%,
-    #e5e7eb 75%,
+    #1f2937 45%,
+    white 45%,
     white 75%,
+    #e5e7eb 75%,
+    #e5e7eb 90%,
+    white 90%,
     white 100%);
 }
 
@@ -27,17 +27,25 @@ body{
     margin: 0 50px;
 }
 
-
-.header .content{
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-}
 .header .links{
     display: flex;
     list-style-type: none;
     font-size: 18px;
     gap: 10px;
+}
+
+.header-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px 50px;
+    height: 270px;
+}
+
+.header-content .title{
+    font-size: 48px;
+    color: #f9faf8;
 }
 
 a{
@@ -48,4 +56,43 @@ a{
 p{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.test{
+    flex: 1;
+}
+
+.test h1{
+    margin-top: 0;
+}
+
+.image-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+img{
+    height: 250px;
+    width: auto;
+    border-radius: 15px;
+    border: 5px solid grey;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+}
+
+.listimages img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.information-text{
+    text-align: center;
 }
