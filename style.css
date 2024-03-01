@@ -3,16 +3,9 @@
 }
 
 body{
-    height: 1600px;
-    background-image: linear-gradient(to bottom,
-    #1f2937 0%,
-    #1f2937 25%,
-    white 25%,
-    white 50%,
-    #e5e7eb 50%,
-    #e5e7eb 75%,
-    white 75%,
-    white 100%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .title{
@@ -25,11 +18,12 @@ body{
     flex-direction: column;
     gap: 25px;
     height: 400px;
+    background-color: #1f2937;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    margin: 0 5%;
 }
 
 .header .links{
@@ -45,6 +39,7 @@ body{
     align-items: flex-start;
     justify-content: space-evenly;
     gap: 50px;
+    margin: 0 10%;
 }
 
 .header-content .title{
@@ -116,7 +111,6 @@ ul{
 }
 
 .page{
-    margin: 0 100px;
     display: flex;
     flex-direction: column;
     gap: 50px;
