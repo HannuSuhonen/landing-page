@@ -67,22 +67,17 @@ a{
 }
 
 .image-container{
-    flex: 1;
     display: flex;
+    flex: 1;
     align-items: center;
-    justify-content: center;
-    min-width: auto;
+    justify-content: flex-start;
 }
 
 .image-container img{
-    flex: 1 3 0;
     height: auto;
     width: 300px;
     border-radius: 15px;
     border: 5px solid grey;
-    object-fit: contain;
-    max-width: 400px;
-    max-height: auto;
 }
 
 ul{
@@ -99,6 +94,12 @@ ul{
     border: 5px solid #3882f6;
 }
 
+.infomation{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+}
 .information-text{
     text-align: center;
     font-size: 36px;
@@ -110,11 +111,6 @@ ul{
     text-align: center;
 }
 
-.page{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
 
 
 .button {
@@ -133,4 +129,24 @@ ul{
 img{
     height: 200px;
     width: 200px;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-section .quote{
+    padding: 0% 25%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-section .signature{
+    padding: 0% 25%;
+    text-align: end;
+    font-weight: bold;
 }
