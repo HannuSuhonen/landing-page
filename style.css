@@ -24,6 +24,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 5%;
+    border-bottom: 1px solid #f9faf8;
 }
 
 .header .links{
@@ -118,12 +119,8 @@ ul{
     border: none;
     color: white;
     padding: 10px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 15%;
+    border-radius: 8px;
 }
 
 img{
@@ -138,7 +135,7 @@ img{
 }
 
 .quote-section .quote{
-    padding: 0% 25%;
+    padding: 0% 15%;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
@@ -149,4 +146,40 @@ img{
     padding: 0% 25%;
     text-align: end;
     font-weight: bold;
+}
+
+.signup-section{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    gap: 50px;
+    padding: 15px 70px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: #f9faf8;
+}
+
+.banner-button{
+    align-self: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 3px solid #f9faf8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.banner-title{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #f9faf8;
+    background-color: #1f2937;
 }
